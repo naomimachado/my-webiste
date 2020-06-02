@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-function App() {
+const App = () => {
   return (
     <div className="container-fluid">
       <div className="row">
@@ -35,6 +35,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
